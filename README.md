@@ -30,8 +30,8 @@ python train.py \
     --name simple_experiment \
     --train_dataset /Users/egonzalez/Downloads/train \
     --val_dataset /Users/egonzalez/Downloads/val \
-    --batch_size 32
-    --seed 42
+    --batch_size 32 \
+    --seed 42 \
     --epochs 100
 ```
 
