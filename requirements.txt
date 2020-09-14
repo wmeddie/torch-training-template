@@ -1,0 +1,10 @@
+Cython==0.29.21
+future==0.18.2
+numpy==1.19.2
+onnxruntime==1.4.0
+opencv-python==4.4.0.42
+Pillow==7.2.0
+protobuf==3.13.0
+six==1.15.0
+torch==1.6.0
+torchvision==0.7.0
