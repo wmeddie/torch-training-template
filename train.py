@@ -35,7 +35,7 @@ def main(args):
     if not os.path.exists(val_out):
         load_data(val_dataset_path, val_out, batch_size)
 
-    training_data = BmiDataset(data_out)
+    training_data = BmiDataset(train_out)
     val_data = BmiDataset(val_out)
 
     # Train and validate model.
